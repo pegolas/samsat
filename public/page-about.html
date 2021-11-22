@@ -21,14 +21,14 @@
     <link rel="manifest" href="__manifest.json">
 </head>
 
-<body oncontextmenu="return false" onkeydown="return false;" onmousedown="return false;">
+<body>
 
-    <!-- loader -->
+    <!-- Loader -->
     <div id="loader">
         <div class="spinner-border text-primary" role="status"></div>
     </div>
-    <!-- * loader -->
-    
+    <!-- * Loader -->
+
     <!-- App Header -->
     <div class="appHeader bg-primary text-light">
         <div class="left">
@@ -41,6 +41,14 @@
     </div>
     <!-- * App Header -->
 
+    <!-- * App Body -->
+    <div>
+    <script>
+        var res = window.atob("SGVsbG8gV29ybGQh");
+    </script>
+    </div>
+    <!-- * App Body -->
+    
     <!-- App Capsule -->
     <div id="appCapsule">
 
@@ -50,7 +58,11 @@
         <div class="section full mt-2">
             <div class="section-title">About us</div>
             <div class="wide-block pt-2 pb-1">
-                <p id="hide"></p>
+                <p id="hide">
+                    <script>
+                        document.write(res);
+                    </script>
+                </p>
                 <p>
                     Nunc efficitur laoreet vulputate. Curabitur mi ligula, aliquet commodo leo in, consectetur venenatis
                     tellus. Maecenas quis vehicula erat, vitae finibus tellus. Cras rhoncus ipsum quis lacus aliquam,
@@ -383,10 +395,6 @@
     <!-- * App Sidebar -->
 
     <!-- ///////////// Js Files ////////////////////  -->
-    <script>
-        var dec = window.atob("SGVsbG8gV29ybGQh");
-  document.getElementById("hide").innerHTML = dec;
-    </script>
     <!-- Jquery -->
     <script src="assets/js/lib/jquery-3.6.0.min.js"></script>
     <!-- Bootstrap-->
