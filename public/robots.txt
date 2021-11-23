@@ -1,0 +1,9 @@
+User-agent: Googlebot
+User-agent: AdsBot-Google
+User-agent: Googlebot-news
+User-agent: Googlebot-Image
+User-agent: Mediapartners-Google
+User-agent: *
+Allow: /
+
+Sitemap: https://cekpajak.info/sitemap.xml
