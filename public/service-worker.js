@@ -9,15 +9,16 @@ var CACHE_NAME = 'cache-version-1';
 var REQUIRED_FILES = [
   'index.html',
   '/',
-  'https://fonts.googleapis.com/css?family=Inter:400,500,700&display=swap',
-  'https://unpkg.com/ionicons@5.0.0/dist/ionicons/ionicons.js',
+  'assets/font/GoogleSans-Regular.woff',
+  'assets/font/GoogleSans-Regular.woff2',
+  'assets/font/GoogleSans-Medium.woff',
+  'assets/font/GoogleSans-Medium.woff2',
+  'assets/font/GoogleSans-Bold.woff',
+  'assets/font/GoogleSans-Bold.woff2',
   'assets/js/lib/jquery-3.6.0.min.js',
   'assets/js/lib/popper.min.js',
   'assets/js/lib/bootstrap.min.js',
-  'assets/js/plugins/owl-carousel/owl.carousel.min.js',
   'assets/js/base.js',
-  'assets/css/inc/owl-carousel/owl.carousel.min.css',
-  'assets/css/inc/owl-carousel/owl.theme.default.css',
   'assets/css/inc/bootstrap/bootstrap.min.css',
   'assets/css/style.css'
 ];

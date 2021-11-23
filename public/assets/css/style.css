@@ -2,8 +2,38 @@
 @import url("inc/bootstrap/bootstrap.min.css");
 @import url("https://fonts.googleapis.com/css?family=Inter:400,500,700&display=swap");
 
+@font-face {
+  font-family: 'Google Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Google Sans Regular'), local('GoogleSans-Regular'),
+       url('../font/GoogleSans-Regular.woff2') format('woff2'),
+       url('../font/GoogleSans-Regular.woff') format('woff');
+}
+ 
+@font-face {
+  font-family: 'Google Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: local('Google Sans Medium'), local('GoogleSans-Medium'),
+       url('../font/GoogleSans-Medium.woff2') format('woff2'),
+       url('../font/GoogleSans-Medium.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Google Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: local('Google Sans Bold'), local('GoogleSans-Bold'),
+       url('../font/GoogleSans-Bold.woff2') format('woff2'),
+       url('../font/GoogleSans-Bold.woff') format('woff');
+}
+
 body {
-  font-family: "Inter", sans-serif;
+  font-family: "Google Sans", sans-serif;
   font-size: 15px;
   line-height: 1.55rem;
   letter-spacing: -0.015rem;
