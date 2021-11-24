@@ -1,9 +1,3 @@
-/////////////////////////////////////////////////////////////////////////////
-// You can find dozens of practical, detailed, and working examples of 
-// service worker usage on https://github.com/mozilla/serviceworker-cookbook
-/////////////////////////////////////////////////////////////////////////////
-
-// Cache name
 var CACHE_NAME = 'cache-version-1';
 
 var REQUIRED_FILES = [

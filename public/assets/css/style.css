@@ -34,6 +34,7 @@
 
 body {
   font-family: "Google Sans", sans-serif;
+  font-display: optional;
   font-size: 15px;
   line-height: 1.55rem;
   letter-spacing: -0.015rem;
@@ -5310,7 +5311,7 @@ textarea,
   height: 12px;
   border-radius: 100%;
   position: absolute;
-  background: #A1A1A2;
+  background: #01579B;
   left: -5px;
   top: 50%;
   margin-top: -6px;
