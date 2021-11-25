@@ -10,10 +10,10 @@
     ],
 
     "headers": [ {
-      "source": "**/*.@(eot|otf|ttf|ttc|woff|font.css)",
+      "source": "**/*.@(eot|otf|ttf|ttc|woff|woff2|font.css)",
       "headers": [ {
         "key": "Access-Control-Allow-Origin",
-        "value": "max-age=86400"
+        "value": "max-age=31536000"
       } ]
     }, {
       "source": "**/*.@(js|css|scss)",
@@ -31,7 +31,7 @@
       "source": "404.html",
       "headers": [ {
         "key": "Cache-Control",
-        "value": "max-age=86400"
+        "value": "max-age=31536000"
       } ]
     } ]
   }
