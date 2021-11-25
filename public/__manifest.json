@@ -1,6 +1,6 @@
 {
-    "name": "Cek Pajak Motor & Mobil",
-    "short_name": "Cekpajak",
+    "name": "Cek Pajak Kendaraan Bermotor",
+    "short_name": "cekpajakdotinfo",
     "start_url": "index.html",
     "display": "standalone",
     "scope" : "/",
