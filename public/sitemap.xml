@@ -5,33 +5,38 @@
       xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 <url>
-  <loc>https://cekpajak.info/</loc>
+  <loc>https://samsat.info/</loc>
   <lastmod>2021-11-23T08:47:58+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
-  <loc>https://cekpajak.info/cek-pajak-kendaraan-bermotor-online.html</loc>
+  <loc>https://samsat.info/cek-pajak-kendaraan-bermotor-online.html</loc>
   <lastmod>2021-11-23T08:47:58+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://cekpajak.info/tarif-pnbp-kendaraan-bermotor.html</loc>
+  <loc>https://samsat.info/tarif-pnbp-kendaraan-bermotor.html</loc>
   <lastmod>2021-11-23T08:47:58+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://cekpajak.info/syarat-proses-dan-cara-mutasi-balik-nama-dan-bayar-pajak-kendaraan.html</loc>
+  <loc>https://samsat.info/syarat-proses-dan-cara-mutasi-balik-nama-dan-bayar-pajak-kendaraan.html</loc>
   <lastmod>2021-11-23T08:47:58+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://cekpajak.info/berita.html</loc>
+  <loc>https://samsat.info/berita.html</loc>
   <lastmod>2021-11-23T08:47:58+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://cekpajak.info/kalkulator-pajak-kendaraan-bermotor.html</loc>
+  <loc>https://samsat.info/kalkulator-pajak-kendaraan-bermotor.html</loc>
   <lastmod>2021-11-23T08:47:58+00:00</lastmod>
   <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://samsat.info/404.html</loc>
+  <lastmod>2021-11-23T08:47:58+00:00</lastmod>
+  <priority>0.60</priority>
 </url>
 </urlset>

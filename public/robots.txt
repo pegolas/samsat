@@ -6,4 +6,4 @@ User-agent: Mediapartners-Google
 User-agent: *
 Allow: /
 
-Sitemap: https://cekpajak.info/sitemap.xml
+Sitemap: https://samsat.info/sitemap.xml
