@@ -1,6 +1,6 @@
 {
     "name": "Informasi Samsat",
-    "short_name": "SamsatDotInfo",
+    "short_name": "Info Samsat",
     "start_url": "index.html",
     "display": "standalone",
     "scope" : "/",
