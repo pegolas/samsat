@@ -19,19 +19,19 @@
       "source": "**/*.@(js|css|scss)",
       "headers": [ {
         "key": "Cache-Control",
-        "value": "max-age=3600"
+        "value": "max-age=86400"
       } ]
     }, {
       "source": "**/*.@(jpg|jpeg|gif|png|webp)",
       "headers": [ {
         "key": "Cache-Control",
-        "value": "max-age=3600"
+        "value": "max-age=86400"
       } ]
     }, {
       "source": "404.html",
       "headers": [ {
         "key": "Cache-Control",
-        "value": "max-age=3600"
+        "value": "max-age=86400"
       } ]
     } ]
   }
