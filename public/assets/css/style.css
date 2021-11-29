@@ -8,18 +8,18 @@
   font-weight: 400;
   font-display: swap;
   src: local('Google Sans Regular'), local('GoogleSans-Regular'),
-       url('../font/GoogleSans-Regular.woff2') format('woff2'),
-       url('../font/GoogleSans-Regular.woff') format('woff');
+    url('../font/GoogleSans-Regular.woff2') format('woff2'),
+    url('../font/GoogleSans-Regular.woff') format('woff');
 }
- 
+
 @font-face {
   font-family: 'Google Sans';
   font-style: normal;
   font-weight: 500;
   font-display: swap;
   src: local('Google Sans Medium'), local('GoogleSans-Medium'),
-       url('../font/GoogleSans-Medium.woff2') format('woff2'),
-       url('../font/GoogleSans-Medium.woff') format('woff');
+    url('../font/GoogleSans-Medium.woff2') format('woff2'),
+    url('../font/GoogleSans-Medium.woff') format('woff');
 }
 
 @font-face {
@@ -28,8 +28,8 @@
   font-weight: 700;
   font-display: swap;
   src: local('Google Sans Bold'), local('GoogleSans-Bold'),
-       url('../font/GoogleSans-Bold.woff2') format('woff2'),
-       url('../font/GoogleSans-Bold.woff') format('woff');
+    url('../font/GoogleSans-Bold.woff2') format('woff2'),
+    url('../font/GoogleSans-Bold.woff') format('woff');
 }
 
 body {
@@ -45,6 +45,31 @@ body {
   overflow-x: hidden;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+@media only screen and (min-width: 640px) {
+
+  body,
+  .appHeader,
+  .appBottomMenu {
+    width: 100% !important;
+    display: flex !important;
+    justify-content: center !important;
+    padding-left: 33% !important;
+    padding-right: 33% !important;
+  }
+
+  .alert-text {
+    display: flex !important;
+    justify-content: center !important;
+    padding-top: 15px;
+    color: red;
+  }
+
+}
+
+.alert-text {
+  display: none;
 }
 
 ::-webkit-scrollbar {
