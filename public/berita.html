@@ -34,7 +34,7 @@
     </script>
 </head>
 
-<body>
+<body class="bg-white">
 
     <!-- loader -->
     <div id="loader">
@@ -42,255 +42,57 @@
     </div>
     <!-- * loader -->
 
-    <!-- Main -->
-    <main role="main">
-        <!-- App Header -->
-        <div class="appHeader bg-primary text-light">
-            <div class="pageTitle">Berita Samsat Nasional</div>
+    <!-- App Header -->
+    <div class="appHeader no-border transparent position-absolute">
+        <div class="left">
+            <a href="javascript:;" class="headerButton goBack">
+                <ion-icon name="chevron-back-outline"></ion-icon>
+            </a>
         </div>
-        <!-- * App Header -->
-
-        <!-- App Capsule -->
-        <aside role="complementary">
-            <div id="appCapsule">
-                <span class="alert-text">
-                    <center> - MOBILE BROWSER ONLY - <br> Website ini hanya dikhususkan untuk dilihat di
-                        Browser
-                        Smartphone/Seluler </center>
-                </span>
-                <div class="section full mt-2 mb-2">
-                    <div class="section-title">Berita Samsat</div>
-                    <div class="wide-block pt-2 pb-1">
-                        <p>
-                            Berita dan Informasi seputar Kendaraan Bermotor di Indonesia
-                        </p>
-                    </div>
-                    <ul class="listview image-listview media mb-2">
-                        <li>
-                            <a href="" class="item">
-                                <div class="imageWrapper">
-                                    <img src="assets/img/sample/photo/1.webp" alt="image" class="imaged w64">
-                                </div>
-                                <div class="in">
-                                    <div>
-                                        Berita A
-                                        <div class="text-muted">Samsat
-                                        </div>
-                                    </div>
-                                </div>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="" class="item">
-                                <div class="imageWrapper">
-                                    <img src="assets/img/sample/photo/1.webp" alt="image" class="imaged w64">
-                                </div>
-                                <div class="in">
-                                    <div>
-                                        Berita B
-                                        <div class="text-muted">Samsat</div>
-                                    </div>
-                                </div>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="" class="item">
-                                <div class="imageWrapper">
-                                    <img src="assets/img/sample/photo/1.webp" alt="image" class="imaged w64">
-                                </div>
-                                <div class="in">
-                                    <div>
-                                        Berita C
-                                        <div class="text-muted">Samsat</div>
-                                    </div>
-                                </div>
-                            </a>
-                        </li>
-                        <!-- Go To Top -->
-                        <a href="#" class="button goTop">
-                            <material-icons class="material-icons-outlined">arrow_upward</material-icons>
-                        </a>
-                        <!-- * Go To Top -->
-                        <li>
-                            <a href="" class="item">
-                                <div class="imageWrapper">
-                                    <img src="assets/img/sample/photo/1.webp" alt="image" class="imaged w64">
-                                </div>
-                                <div class="in">
-                                    <div>
-                                        Berita D
-                                        <div class="text-muted">Samsat</div>
-                                    </div>
-                                </div>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="" class="item">
-                                <div class="imageWrapper">
-                                    <img src="assets/img/sample/photo/1.webp" alt="image" class="imaged w64">
-                                </div>
-                                <div class="in">
-                                    <div>
-                                        Berita E
-                                        <div class="text-muted">Samsat</div>
-                                    </div>
-                                </div>
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </aside>
-        <!-- * App Capsule -->
-    </main>
-
-    <!-- * Main -->
-
-    <!-- App Bottom Menu -->
-    <div class="appBottomMenu">
-        <a href="/" class="item">
-            <div class="col">
-                <material-icons class="material-icons-outlined">home</material-icons>
-                <strong>Beranda</strong>
-            </div>
-        </a>
-        <a href="cek-pajak-kendaraan-bermotor-online.html" class="item">
-            <div class="col">
-                <material-icons class="material-icons-outlined">search</material-icons>
-                <strong>Cek Pajak</strong>
-            </div>
-        </a>
-        <a href="syarat-proses-dan-cara-mutasi-balik-nama-dan-bayar-pajak-kendaraan.html" class="item">
-            <div class="col">
-                <material-icons class="material-icons-outlined">class</material-icons>
-                <strong>Petunjuk</strong>
-            </div>
-        </a>
-        <a href="tarif-pnbp-kendaraan-bermotor.html" class="item">
-            <div class="col">
-                <material-icons class="material-icons-outlined">request_quote</material-icons>
-                <strong>Tarif</strong>
-            </div>
-        </a>
-        <a href="javascript:;" class="item" data-toggle="modal" data-target="#sidebarPanel">
-            <div class="col">
-                <material-icons class="material-icons-outlined">menu</material-icons>
-            </div>
-        </a>
-    </div>
-    <!-- * App Bottom Menu -->
-
-    <!-- App Sidebar -->
-    <div class="modal fade panelbox panelbox-left" id="sidebarPanel" tabindex="-1" role="dialog">
-        <div class="modal-dialog" role="document">
-            <div class="modal-content">
-                <div class="modal-body p-0">
-
-                    <!-- profile box -->
-                    <div class="profileBox">
-                        <div class="image-wrapper">
-                            <img src="assets/img/Icon-Sidebar.png" alt="image" class="imaged rounded">
-                        </div>
-                        <div class="in">
-                            <strong id="prevLoc"></strong>
-                            <div class="text-muted">
-                                <!-- .non-mobile-detection -->
-                                <div class="non-mobile-detection">
-                                    Bukan Mobile Device
-                                </div>
-                                <!-- .ios-detection -->
-                                <div class="ios-detection">
-                                    iOS
-                                </div>
-                                <!-- .android-detection -->
-                                <div class="android-detection">
-                                    Android
-                                </div>
-                                <!-- .windowsphone-detection -->
-                                <div class="windowsphone-detection">
-                                    Windows Phone
-                                </div>
-                            </div>
-                        </div>
-                        <a href="javascript:;" class="close-sidebar-button" data-dismiss="modal">
-                            <material-icons class="material-icons-outlined">close</material-icons>
-                        </a>
-                    </div>
-                    <!-- * profile box -->
-
-                    <ul class="listview flush transparent no-line image-listview mt-2">
-                        <li>
-                            <a href="/" class="item">
-                                <div class="icon-box bg-primary">
-                                    <material-icons class="material-icons-outlined">home</material-icons>
-                                </div>
-                                <div class="in">
-                                    Beranda
-                                </div>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="berita.html" class="item">
-                                <div class="icon-box bg-primary">
-                                    <material-icons class="material-icons-outlined">feed</material-icons>
-                                </div>
-                                <div class="in">
-                                    Berita
-                                </div>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="kalkulator-pajak-kendaraan-bermotor.html" class="item">
-                                <div class="icon-box bg-primary">
-                                    <material-icons class="material-icons-outlined">calculate</material-icons>
-                                </div>
-                                <div class="in">
-                                    Kalkulator Pajak
-                                </div>
-                            </a>
-                        </li>
-                        <li>
-                            <div class="item">
-                                <div class="icon-box bg-primary">
-                                    <material-icons class="material-icons-outlined">dark_mode</material-icons>
-                                </div>
-                                <div class="in">
-                                    <div>Mode Gelap</div>
-                                    <div class="custom-control custom-switch">
-                                        <input type="checkbox" class="custom-control-input dark-mode-switch"
-                                            id="darkmodesidebar">
-                                        <label class="custom-control-label" for="darkmodesidebar"></label>
-                                    </div>
-                                </div>
-                            </div>
-                        </li>
-                    </ul>
-                </div>
-
-                <!-- sidebar buttons -->
-                <div class="sidebar-buttons">
-                    <a href="javascript:;" class="button">
-                        <material-icons class="material-icons-outlined">whatsapp</material-icons>
-                    </a>
-                </div>
-                <!-- * sidebar buttons -->
-            </div>
+        <div class="pageTitle">Under Construction</div>
+        <div class="right">
         </div>
     </div>
-    <!-- * App Sidebar -->
+    <!-- * App Header -->
+
+    <!-- App Capsule -->
+    <div id="appCapsule">
+        <span class="alert-text">
+            <center> - MOBILE BROWSER ONLY - <br> Website ini hanya dikhususkan untuk dilihat di
+                Browser
+                Smartphone/Seluler </center>
+        </span>
+        <div class="error-page">
+            <div class="mb-2">
+                <img src="assets/img/icon/384x384.png" width="200" height="200" alt="Cek Pajak Online"
+                    class="imaged square w200">
+            </div>
+            <h1 class="title">Akan Datang !!</h1>
+            <div id="countDown" class="mb-5"></div>
+
+            <div class="fixed-footer">
+                <div class="row">
+                    <div class="col-12">
+                        <a href="/" class="btn btn-primary btn-lg btn-block">Kembali</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <!-- * App Capsule -->
+
 
     <!-- ///////////// Js Files ////////////////////  -->
     <!-- Jquery -->
     <script src="assets/js/lib/jquery-3.6.0.min.js"></script>
     <!-- Bootstrap-->
-    <script src="assets/js/lib/popper.min.js" async></script>
+    <script src="assets/js/lib/popper.min.js"></script>
     <script src="assets/js/lib/bootstrap.min.js"></script>
     <!-- jQuery Circle Progress -->
     <script src="assets/js/plugins/jquery-circle-progress/circle-progress.min.js"></script>
     <!-- Base Js File -->
     <script src="assets/js/base.js"></script>
-    <!-- Geolocation Js File -->
-    <script src="assets/js/geolocation.js" async></script>
 
 </body>
 
