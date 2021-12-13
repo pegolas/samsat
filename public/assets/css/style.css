@@ -7997,3 +7997,8 @@ body.dark-mode-active .cart-item .cart-item-footer {
   height: 130%;
   border: none;
 }
+
+.wide-block iframe {
+  display: block !important;
+  margin: 0 auto !important;
+}
