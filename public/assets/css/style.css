@@ -620,8 +620,8 @@ button:focus {
   background: #fff;
   border-top: 1px solid #E1E1E1;
   border-bottom: 1px solid #E1E1E1;
-  padding-left: 16px;
-  padding-right: 16px;
+  padding-left: 13px;
+  padding-right: 13px;
 }
 
 .wide-block.transparent {
