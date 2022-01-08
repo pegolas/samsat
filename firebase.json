@@ -6,30 +6,20 @@
       "**/.*",
       "**/node_modules/**"
     ],
-    "headers": [ {
-      "source": "**/*.@(|woff|woff2)",
-      "headers": [ {
-        "key": "Cache-Control",
-        "value": "max-age=86400"
-      } ]
-    },{
-      "source": "**/*.@(js|css|scss)",
-      "headers": [ {
-        "key": "Cache-Control",
-        "value": "no-cache"
-      } ]
-    }, {
-      "source": "**/*.@(jpg|jpeg|gif|png|webp)",
-      "headers": [ {
-        "key": "Cache-Control",
-        "value": "no-cache"
-      } ]
-    }, {
-      "source":  "**/*.@(html|htm)",
-      "headers": [ {
-        "key": "Cache-Control",
-        "value": "no-cache"
-      } ]
-    } ]
+    "headers": [{
+        "source": "/**",
+        "headers": [{
+          "key": "Cache-Control",
+          "value": "no-cache, no-store"
+        }]
+      },
+      {
+        "source": "**/*.@(|woff|woff2)",
+        "headers": [{
+          "key": "Cache-Control",
+          "value": "max-age=86400"
+        }]
+      }
+    ]
   }
 }
