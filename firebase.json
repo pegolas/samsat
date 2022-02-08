@@ -6,6 +6,10 @@
       "**/.*",
       "**/node_modules/**"
     ],
+    "rewrites": [ {
+      "source": "**",
+      "destination": "/404.html"
+    }],
     "headers": [{
         "source": "/**",
         "headers": [{
@@ -23,3 +27,4 @@
     ]
   }
 }
+
