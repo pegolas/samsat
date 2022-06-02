@@ -6,25 +6,40 @@
       "**/.*",
       "**/node_modules/**"
     ],
-    "rewrites": [ {
-      "source": "**",
-      "destination": "/404.html"
-    }],
-    "headers": [{
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/404.html"
+      }
+    ],
+    "headers": [
+      {
         "source": "/**",
-        "headers": [{
-          "key": "Cache-Control",
-          "value": "no-cache, no-store"
-        }]
+        "headers": [
+          {
+            "key": "Cache-Control",
+            "value": "no-cache, no-store"
+          }
+        ]
       },
       {
         "source": "**/*.@(|woff|woff2)",
-        "headers": [{
-          "key": "Cache-Control",
-          "value": "max-age=86400"
-        }]
+        "headers": [
+          {
+            "key": "Cache-Control",
+            "value": "max-age=86400"
+          }
+        ]
+      },
+      {
+        "source": "**/*.@(|jpg|webp|png)",
+        "headers": [
+          {
+            "key": "Cache-Control",
+            "value": "no-cache, no-store"
+          }
+        ]
       }
     ]
   }
 }
-
