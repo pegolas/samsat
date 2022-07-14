@@ -36,7 +36,16 @@
         "headers": [
           {
             "key": "Cache-Control",
-            "value": "no-cache, no-store"
+            "value": "max-age=3600"
+          }
+        ]
+      },
+      {
+        "source": "**/*.@(|js|css|scss)",
+        "headers": [
+          {
+            "key": "Cache-Control",
+            "value": "max-age=3600"
           }
         ]
       }

@@ -5515,6 +5515,11 @@ textarea,
   height: 250px;
 }
 
+.adbox-300-300 img {
+  width: 300px;
+  height: 300px;
+}
+
 .windowsphone-detection,
 .ios-detection,
 .android-detection,
