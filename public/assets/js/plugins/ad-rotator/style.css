@@ -1,0 +1,21 @@
+.stickyElx {
+    transition: all .5s;
+    z-index: 1
+}
+
+.fadeIn {
+    -webkit-animation: fadeIn .2s ease-in-out;
+    animation: fadeIn .2s ease-in-out
+}
+
+@-webkit-keyframes fadeIn {
+    0% {
+        opacity: 0
+    }
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0
+    }
+}
